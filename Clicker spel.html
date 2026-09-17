@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Clicker-spel</title>
+     <link rel="stylesheet" href="clicker.css">
+</head>
+<body>
+	<h1>Clicker-spel</h1>
+	<p id="poäng">Poäng: 0</p>
+	<button onclick="klicka()">Klicka!</button>
+
+	<script>
+		let poäng = 0;
+
+		function klicka() {
+			poäng++;
+			document.getElementById("poäng").textContent = "Poäng: " + poäng;
+		}
+	</script>
+</body>
+</html>
