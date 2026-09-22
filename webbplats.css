@@ -1,0 +1,42 @@
+h1 {
+color: blue;
+font-size: 50px;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 28px;
+}
+img {
+    width: 400px;
+    height: auto;
+}
+main { 
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+#fakta {
+   background-color: #a19b9b98;
+   height: 460px;
+   width: 90%;
+   justify-self: center;
+   padding: 10px;
+   border: 3px solid #000;
+   border-radius: 10px;
+}
+#fakta p {
+    font-size: 22px;
+}
+
+body {
+    background-color: #ffffff;
+}
+   
+#kontakt {
+   p {
+    font-weight: bold;
+   }
+}
